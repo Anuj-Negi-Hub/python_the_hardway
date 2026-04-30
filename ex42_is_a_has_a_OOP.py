@@ -4,23 +4,28 @@ class Animal(object):
 
 class Dog(Animal):
 
-    def __init__(self, name):
+    def __init__(self, name): #
         self.name = name
     
+    def print_name(self):
+        print(f"The dog name is {self.name}")
+
+
 class Cat(Animal):
     def __init__(self, name):
         self.name = name
 
 class Person(object):
-    def __init__(self, name):
+    def __init__(self, name, pet):
         self.name = name
         ##person has a pet of some kind
         self.pet = None
 
 class Employee(Person):
-    def __init__(self, name, salary):
-        super(Employee, self).__init__(name)
+    def __init__(self, name, salary, pet):
+        super(Employee, self).__init__(name, pet)
         self.salary = salary
+
 
 class Fish(object):
     pass
@@ -33,20 +38,25 @@ class Halibut(Fish):
 
 ##Rover is a dog
 rover = Dog("Rover")
+rover.print_name()
 
 
 satan = Cat("Satan")
 
-mary = Person("Mary")
+# mary = Person("Mary")
 
-mary.pet = satan
+# mary.pet = satan
 
-frank = Employee("Frank", 120000)
+frank = Employee("Frank", 120000, "Mukku")
 frank.pet = rover
 
 flipper = Fish()
 crouse = Salmon()
 harry = Halibut()
 
+emp1 = Employee("emp1", 10000, "Tommy")
+p2 = Person("p2", "Moti")
 
-        
+emp2 = Employee(p2, 15000, "Rocky")
+
+#few exmp for basics for object oriented programming for practise
