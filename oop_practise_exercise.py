@@ -10,10 +10,14 @@ class Student:
 
     def display(self):
         print(f"Name: {self.name}, Mark: {self.marks}")
-
+    
+    
 # s1 = Student("Rahul", 85)
 # s1.display()
-#Create four more student objects using list and for loops
+# s1.show_name()
+# s1.show_marks()
+
+# Create four more student objects using list and for loops
 # List of student data
 student_data = [
     ("Rahul", 85),
@@ -32,8 +36,8 @@ for index, data in enumerate(student_data):
     print(data, end=" ")
     print(index)
 
-    if index == len(student_data) - 1:  #check this figure this out
-        print(data)
+    if index == len(student_data) - 1:  #check this and figure out
+        print(end="")
     
 # print()
 

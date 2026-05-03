@@ -1,0 +1,126 @@
+✅ 1. Create a Car class
+Attributes: brand, model, price
+Method: display_info() → prints all details
+
+👉 Task:
+
+Create 2 car objects
+Print their details
+
+
+✅ 2. Create a Rectangle class
+Attributes: length, width
+Methods:
+area() → returns area
+perimeter() → returns perimeter
+
+👉 Task:
+
+Create a rectangle and print both values
+
+
+✅ 3. Create a Student class (simple version)
+Attributes: name, marks
+Method: is_passed()
+return "Pass" if marks ≥ 40
+else "Fail"
+
+
+✅ 4. Bank Account system
+
+Create a class BankAccount:
+
+Attributes: name, balance
+Methods:
+deposit(amount)
+withdraw(amount)
+check_balance()
+
+👉 Task:
+
+Create one account
+Perform deposit & withdrawal
+
+
+✅ 5. Book Library System
+Attributes: title, author, is_available
+Methods:
+borrow_book() → mark unavailable
+return_book() → mark available
+
+
+✅ 6. Employee class
+Attributes: name, salary
+Method:
+increase_salary(percent)
+
+👉 Example:
+If salary = 10000 and increase = 10% → new salary = 11000
+
+
+✅ 7. Student Friends System (Upgrade your code)
+
+Modify your existing code:
+
+Add method remove_friend()
+Prevent duplicate friends
+Show number of friends
+
+
+✅ 8. ShoppingCart class
+Attributes: items (list)
+Methods:
+add_item(item)
+remove_item(item)
+show_items()
+
+
+✅ 9. Team and Player
+
+Create:
+
+Player class → name, score
+Team class → list of players
+
+Methods:
+
+Add player
+Show all players
+Find highest scorer
+
+
+
+✅ 10. Mini Social Media
+
+Create a class User:
+
+Attributes: name, followers, following
+Methods:
+follow(user)
+unfollow(user)
+show_followers()
+
+
+✅ 11. Quiz System
+
+Create:
+
+Question class → question, answer
+Quiz class → list of questions
+
+👉 Features:
+
+Ask questions
+Check answers
+Show score
+
+
+✅ 12. ATM Machine (Real-life simulation)
+
+Create class ATM:
+
+Attributes: balance, pin
+Methods:
+check_pin()
+withdraw()
+deposit()
