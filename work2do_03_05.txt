@@ -1,0 +1,36 @@
+>>> import ex40_module_class_object as ex40
+This is a song...
+785
+>>> s3 = Song("This is a class")
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'Song' is not defined
+>>> s3 = ex40.Song("This is a class")
+>>> type(s3)
+<class 'ex40_module_class_object.Song'>
+>>> from ex40_module_class_object import Song
+>>> from ex40_module_class_object import Song
+>>> exit()
+PS D:\Python\python_the_hard_way\python_the_hardway> python
+Python 3.10.11 (tags/v3.10.11:7d4cc5a, Apr  5 2023, 00:38:17) [MSC v.1929 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license" for more information.
+>>> from ex40_module_class_object import Song 
+This is a song...
+785
+>>> exit()
+PS D:\Python\python_the_hard_way\python_the_hardway> python
+Python 3.10.11 (tags/v3.10.11:7d4cc5a, Apr  5 2023, 00:38:17) [MSC v.1929 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license" for more information.
+>>> from ex40_module_class_object import Song
+>>> from ex40_module_class_object import Song
+>>> exit()
+PS D:\Python\python_the_hard_way\python_the_hardway> python
+Python 3.10.11 (tags/v3.10.11:7d4cc5a, Apr  5 2023, 00:38:17) [MSC v.1929 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license" for more information.
+>>> from ex40_module_class_object import Song
+ex40_module_class_object
+>>> exit() 
+PS D:\Python\python_the_hard_way\python_the_hardway> python .\ex40_module_class_object.py 
+__main__
+This is a song...
+785
