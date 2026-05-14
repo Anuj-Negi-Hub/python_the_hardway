@@ -32,13 +32,17 @@ print(f"The area of the room is {sqm} square meter.")
 # s1 = area(length, width)
 # print(s1)
 
-new_file = open("ex7.txt", "w+")
+with open("ex7.txt", "a") as new_file:
 
-content_to_paste = new_file.write(
-    f"The area of the room is {sqft} square feet.\n"
-    f"The area of the room is {sqm} square meter."
-    )
-new_file.close()
+    new_file.write(
+        f"The area of the room is {sqft} square feet.\n"
+        f"The area of the room is {sqm} square meter.\n"
+        )
 
+# print(content_to_paste)
+# new_file.close()
+
+
+# play with "with" clause. Try using excel file, txt file, pdf file
 
 

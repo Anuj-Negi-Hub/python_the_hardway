@@ -1,2 +1,4 @@
-The area of the room is 150.0 square feet.
-The area of the room is 13.935456 square meter.
+The area of the room is 300.0 square feet.
+The area of the room is 27.870912 square meter.The area of the room is 250.0 square feet.
+The area of the room is 23.22576 square meter.The area of the room is 2250.0 square feet.
+The area of the room is 209.03184000000002 square meter.

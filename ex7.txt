@@ -1,0 +1,2 @@
+The area of the room is 150.0 square feet.
+The area of the room is 13.935456 square meter.
