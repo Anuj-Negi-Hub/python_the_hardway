@@ -1,0 +1,3 @@
+Hello, this is a simple text file.
+It contains just a few lines.
+We will read this using Python.

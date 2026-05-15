@@ -1,0 +1,6 @@
+Date,Product,Quantity,Price
+2023-10-01,Laptop,2,1200.50
+2023-10-01,Mouse,5,invalid_price
+2023-10-02,Keyboard,3,75.00
+2023-10-02,Monitor,1,300.00
+2023-10-03,Laptop,1,1200.50

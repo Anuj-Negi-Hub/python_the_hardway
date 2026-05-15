@@ -1,0 +1,8 @@
+=== SALES SUMMARY REPORT ===
+Product         | Total Sold | Total Revenue
+--------------------------------------------------
+Keyboard        | 3          | $225.00
+Laptop          | 3          | $3601.50
+Monitor         | 1          | $300.00
+--------------------------------------------------
+Note: 1 errors/invalid lines were skipped during processing.

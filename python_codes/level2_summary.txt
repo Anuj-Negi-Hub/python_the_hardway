@@ -1,0 +1,21 @@
+
+--- New Word Count Summary ---
+Apple: 3
+Banana: 2
+Orange: 1
+Grape: 1
+Mango: 1
+
+--- New Word Count Summary ---
+Apple: 3
+Banana: 2
+Orange: 1
+Grape: 1
+Mango: 1
+
+--- New Word Count Summary ---
+Apple: 3
+Banana: 2
+Orange: 1
+Grape: 1
+Mango: 1
