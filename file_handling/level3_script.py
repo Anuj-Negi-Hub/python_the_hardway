@@ -27,11 +27,12 @@ else:
             for line in file:       #for loop to read each line one-by-one
                 line_num += 1       #increase the line by 1 
                 parts = line.strip().split(',')     #store line as list
+                print(parts)
                 
                 if len(parts) != 4:      #condition to executre when parts (list) is not equal to 4  
                     print(f"Warning: Line {line_num} is malformed. Skipping.")  #print a message with the error
                     errors_found += 1   #increase the error count by 1 and store the error count
-                    continue            #continue the code even if the error exists 
+                    continue            #jumps back to the for loop if the parts lenght is not equal to 4 after printing error message
                 
                 date, product, quantity_str, price_str = parts      #unpacking and storing each list item in the parts variable to the seperate variables
                 
@@ -44,9 +45,9 @@ else:
                         sales_data[product]['quantity'] += quantity    # increase the product quantity
                         sales_data[product]['revenue'] += total_value  #increase the total revenue
                     else:
-                        sales_data[product] = {'quantity': quantity, 'revenue': total_value}        #if product is not in sales_data, create a disctionary to store the product information
+                        sales_data[product] = {'quantity': quantity, 'revenue': total_value} #if product is not in sales_data, create a disctionary to store the product information
                         
-                except ValueError:          #if there is a mismatch in part lenght, then it will be a value error  
+                except ValueError:          #print the error if the quantity and price are not in expected format   
                     print(f"Warning: Invalid number format on line {line_num} for product '{product}'. Skipping.")
                     errors_found += 1   #increase the error by 1
 
