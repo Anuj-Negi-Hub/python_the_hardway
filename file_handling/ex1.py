@@ -12,7 +12,14 @@ try:
         content = file.read()
         print(content)
 
+except FileNotFoundError as e:
+    print(f"The file is not found: {e}")
+
+except PermissionError as e:
+    print(f"The permission to the file is denied: {e}.")
+
 except IOError as e:
     print(f"The file cannot be opened: {e}.")
+    
 except Exception as e:
     print(f"An unexpected error occured: {e}")
