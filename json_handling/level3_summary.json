@@ -1,0 +1,13 @@
+{
+    "store": "ST-101",
+    "metrics": {
+        "total_revenue": 637.49,
+        "successful_transactions": 3,
+        "failed_transactions": 1
+    },
+    "item_breakdown": {
+        "Monitor": 2,
+        "Desk": 1,
+        "Mousepad": 3
+    }
+}

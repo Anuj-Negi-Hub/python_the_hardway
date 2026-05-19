@@ -1,6 +1,3 @@
-def apple():
-    print("I AM APPLES")
-
 class Mystuff():
 
     def __init__(self):

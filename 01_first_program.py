@@ -8,3 +8,8 @@ print()
 print('I "said" do not touch this.')
 
 """Print this statement"""
+
+
+dict_exmp = {"Name": "Anuj", "Age": 25, "Place": "bangalore"}
+
+print(dict_exmp)

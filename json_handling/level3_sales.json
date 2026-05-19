@@ -1,0 +1,10 @@
+{
+    "store_id": "ST-101",
+    "location": "Downtown",
+    "transactions": [
+        {"tx_id": "T001", "item": "Monitor", "qty": 2, "price": 150.0},
+        {"tx_id": "T002", "item": "Desk", "qty": 1, "price": 299.99},
+        {"tx_id": "T003", "item": "Chair", "qty": "four", "price": 85.0}, 
+        {"tx_id": "T004", "item": "Mousepad", "qty": 3, "price": 12.50}
+    ]
+}
