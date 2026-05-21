@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<map title="AI Reference Guide">
+  <topicref href="ml_basics.dita">
+    <topicmeta>
+      <navtitle>Machine Learning Basics</navtitle>
+      <author>Alice Smith</author>
+      <shortdesc>An introductory guide to basic ML concepts.</shortdesc>
+    </topicmeta>
+  </topicref>
+  <topicref href="neural_nets.dita">
+    <topicmeta>
+      <navtitle>Neural Networks</navtitle>
+      <author>Bob Jones</author>
+      <shortdesc>Deep dive into multi-layer perceptrons.</shortdesc>
+    </topicmeta>
+  </topicref>
+</map>

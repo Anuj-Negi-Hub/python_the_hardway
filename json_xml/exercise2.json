@@ -1,0 +1,18 @@
+[
+  {
+    "chapter_title": "Getting Started",
+    "href": "getting_started.dita",
+    "sections": [
+      { "title": "Installation", "href": "install.dita" },
+      { "title": "Your First Script", "href": "first_script.dita" }
+    ]
+  },
+  {
+    "chapter_title": "Data Structures",
+    "href": "data_structures.dita",
+    "sections": [
+      { "title": "Lists", "href": "lists.dita" },
+      { "title": "Dictionaries", "href": "dicts.dita" }
+    ]
+  }
+]

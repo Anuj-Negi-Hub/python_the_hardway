@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<library>
+    <section name="Fiction">
+        <book category="fantasy" in_stock="true">
+            <title>The Hobbit</title>
+            <author>J.R.R. Tolkien</author>
+            <price>15.99</price>
+        </book>
+        <book category="sci-fi" in_stock="false">
+            <title>Dune</title>
+            <author>Frank Herbert</author>
+            <price>22.50</price>
+        </book>
+    </section>
+    <section name="Programming">
+        <book category="python" in_stock="true">
+            <title>Automate the Boring Stuff</title>
+            <author>Al Sweigart</author>
+            <price>30.00</price>
+        </book>
+        <book category="python" in_stock="true">
+            <title>Fluent Python</title>
+            <author>Luciano Ramalho</author>
+            <price>45.00</price>
+        </book>
+    </section>
+</library>

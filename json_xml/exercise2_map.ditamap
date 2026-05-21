@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<map title="Python Advanced Course">
+  <topicref href="getting_started.dita" navtitle="Getting Started">
+    <topicref href="install.dita" navtitle="Installation"/>
+    <topicref href="first_script.dita" navtitle="Your First Script"/>
+  </topicref>
+  <topicref href="data_structures.dita" navtitle="Data Structures">
+    <topicref href="lists.dita" navtitle="Lists"/>
+    <topicref href="dicts.dita" navtitle="Dictionaries"/>
+  </topicref>
+</map>

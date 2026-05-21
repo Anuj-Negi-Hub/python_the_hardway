@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<inventory>
+    <item id="1">
+        <name>Laptop</name>
+        <price>1000</price>
+        <stock>50</stock>
+    </item>
+    <item id="2">
+        <name>Mouse</name>
+        <price>25</price>
+        <stock>150</stock>
+    </item>
+</inventory>

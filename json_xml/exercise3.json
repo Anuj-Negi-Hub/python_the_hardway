@@ -1,0 +1,14 @@
+[
+  {
+    "title": "Machine Learning Basics",
+    "href": "ml_basics.dita",
+    "author": "Alice Smith",
+    "description": "An introductory guide to basic ML concepts."
+  },
+  {
+    "title": "Neural Networks",
+    "href": "neural_nets.dita",
+    "author": "Bob Jones",
+    "description": "Deep dive into multi-layer perceptrons."
+  }
+]

@@ -1,0 +1,5 @@
+[
+  { "title": "Introduction to Python", "href": "intro.dita" },
+  { "title": "Variables and Data Types", "href": "variables.dita" },
+  { "title": "Control Flow", "href": "control_flow.dita" }
+]
