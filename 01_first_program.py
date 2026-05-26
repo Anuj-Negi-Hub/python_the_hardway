@@ -13,3 +13,8 @@ print('I "said" do not touch this.')
 dict_exmp = {"Name": "Anuj", "Age": 25, "Place": "bangalore"}
 
 print(dict_exmp)
+
+
+
+x = str(3)
+print(type(x))

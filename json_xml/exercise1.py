@@ -9,6 +9,9 @@ with open("exercise1.json", "r") as f:
 # Adding standard DITA DOCTYPE isn't strictly required by lxml to build the tree,
 # but it's good practice for DITA.
 map_root = etree.Element("map", title="Python Basics Course")
+print(type(map_root))
+print(map_root.tag)
+print(map_root.attrib)
 
 # 3. Loop through JSON and create topicrefs
 for topic in topics:
