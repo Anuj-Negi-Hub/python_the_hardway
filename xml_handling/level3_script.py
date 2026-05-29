@@ -12,6 +12,7 @@ if not os.path.exists(input_file):
 else:
     try:
         tree = etree.parse(input_file)
+        print(type(tree))
         
         # 1. Advanced Querying using XPath
         # Find all books that are in stock
