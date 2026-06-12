@@ -42,6 +42,7 @@ rover.print_name()
 
 
 satan = Cat("Satan")
+print(satan.name)
 
 # mary = Person("Mary")
 
@@ -55,6 +56,7 @@ crouse = Salmon()
 harry = Halibut()
 
 emp1 = Employee("emp1", 10000, "Tommy")
+print(emp1.pet)
 p2 = Person("p2", "Moti")
 
 emp2 = Employee(p2, 15000, "Rocky")

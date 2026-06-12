@@ -33,7 +33,7 @@ string_song = Song(["This is a song...", 785])
 
 # when importing this  files as module, the __name__ == "ex40_module_class_object"
 # when executing this  files as module, the __name__ == "__main__". This will run as a normal file.
-# print(__name__)
+print(__name__)
 if __name__ == "__main__":
     string_song.sing_me_a_song()
 
