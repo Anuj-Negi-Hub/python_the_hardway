@@ -6,7 +6,8 @@ class Dog(Animal):
 
     def __init__(self, name): #
         self.name = name
-    
+   # Init will usuall have the data(attrs)
+   # Methods / functions with self will work on the data (attrs) 
     def print_name(self):
         print(f"The dog name is {self.name}")
 
