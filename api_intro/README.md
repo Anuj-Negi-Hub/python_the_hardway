@@ -1,6 +1,6 @@
 # Basic REST API Servers and Clients Walkthrough
 
-This directory contains two basic REST API server implementations (FastAPI and Flask) and their corresponding client scripts to demonstrate standard HTTP request/response interactions.
+This directory contains basic REST API server implementations (FastAPI and Flask) and their corresponding client scripts to demonstrate standard HTTP request/response interactions.
 
 ---
 
@@ -13,6 +13,10 @@ This directory contains two basic REST API server implementations (FastAPI and F
 ### 2. Flask Implementation
 - **[flask_server.py](file:///d:/Python/python_the_hard_way/python_the_hardway/api_intro/flask_server.py)**: The Flask server hosting identical GET and POST endpoints (running on port `5000`).
 - **[flask_client.py](file:///d:/Python/python_the_hard_way/python_the_hardway/api_intro/flask_client.py)**: The Python client script to query the Flask server.
+
+### 3. Flask Books API (Two-Endpoint Example)
+- **[flask_books_server.py](file:///d:/Python/python_the_hard_way/python_the_hardway/api_intro/flask_books_server.py)**: A Flask server managing a list of books with GET and POST endpoints (running on port `5001`).
+- **[flask_books_client.py](file:///d:/Python/python_the_hard_way/python_the_hardway/api_intro/flask_books_client.py)**: The Python client script to query the Flask Books API server.
 
 ---
 
@@ -65,9 +69,25 @@ pip install fastapi uvicorn flask requests
 
 ---
 
-## API Endpoints & Details
+### Option C: Flask Books Server & Client (Two-Endpoint Example)
 
-Both servers implement the following three endpoints:
+1. **Start the Flask Books Server**
+   ```bash
+   python api_intro/flask_books_server.py
+   ```
+   *Note: Runs locally at `http://127.0.0.1:5001` with debug mode.*
+
+2. **Run the Flask Books Client**
+   In a separate terminal, run:
+   ```bash
+   python api_intro/flask_books_client.py
+   ```
+
+---
+
+## API Endpoints & Details (Basic)
+
+Both `server.py` and `flask_server.py` implement the following three endpoints:
 
 ### 1. Home Endpoint (GET `/`)
 - **Expected Response (FastAPI)**:
