@@ -36,3 +36,34 @@ print(f"The total tax on all the items is: {total_tax}.")
 total_with_tax = total_price + total_tax
 
 print(f"the total price of all the items including tax is: {total_with_tax}.")
+
+#-------------------------------------------------------------------------------------------------------------
+# solve the same problem using function
+
+def self_checkout():
+    item1_price = int(input("Enter the price of the item 1: "))
+    item1_quant = int(input("Enter the quantity of the item 1: "))
+
+    item2_price = int(input("Enter the price of the item 2: "))
+    item2_quant = int(input("Enter the quantity of the item 2: "))
+
+    item3_price = int(input("Enter the price of the item 3: "))
+    item3_quant = int(input("Enter the quantity of the item 3: "))
+
+    total_quant = item1_quant + item2_quant + item3_quant
+    total_price = (item1_price * item1_quant) + (item2_price * item2_quant) + (item3_price * item3_quant)
+    
+    print()
+    print(f"The total price of the all items without tax is: {total_price}")
+    print(f"The total quantity of all the items is: {total_quant}")
+    tax_rate = 5.5
+
+    total_tax = (total_price * 5.5)/100
+    print()
+    print(f"The total tax on all the items is: {total_tax}.")
+    total_with_tax = total_price + total_tax
+
+    print()
+    print(f"the total price of all the items including tax is: {total_with_tax}.")
+
+self_checkout()

@@ -16,7 +16,7 @@ print(f"Each person will get {slices_per_person} slices.")
 print(f"The leftover pieces of pizzas are {left_over_slices}.")
 
 
-
+#-------------------------------------------------------------------------------------------------------------
 #Solve the same problem using function
 
 def div_pizza(people_num, pizza_num, slices_pizza):
@@ -35,7 +35,7 @@ slices_pizza = int(input("How many slices each Pizza have? "))
 
 div_pizza(people_num, pizza_num, slices_pizza)
 
-
+#-------------------------------------------------------------------------------------------------------------
 #Solve the same problem using class   
 
 class Party:

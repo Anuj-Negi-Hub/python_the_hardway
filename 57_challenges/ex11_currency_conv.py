@@ -22,4 +22,16 @@ exch_rate = float(input("Type the conversation rate from euro to US dollar: "))
 
 total_dollar = euro_have * exch_rate
 
-print(f"{euro_have} at an exchange rate of {exch_rate} is {total_dollar} US dollar.")
+print(f"{euro_have} euros at an exchange rate of {exch_rate} is {total_dollar} US dollar.")
+
+#-------------------------------------------------------------------------------------------------------------
+#create the same program using function
+
+def currency_con(euroes, exc_rate):
+    total_dollar = euroes * exc_rate
+    print(total_dollar)
+
+euro_have = int(input("How much euroes do you have: "))
+exch_rate = float(input("Type the conversation rate from euro to US dollar: "))
+
+currency_con(euro_have, exch_rate)
