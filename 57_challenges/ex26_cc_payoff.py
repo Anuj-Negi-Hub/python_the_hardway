@@ -20,13 +20,20 @@ It will take you 70 months to pay off this card.
 '''
 import math
 
-APR = int(input("Type the APR per month for your credit card: "))
-total_APR = APR / (365 * 100)
+def calculateMonthsUntilPaidOff(APR, amt_bal, mon_pay):
+    
+    #formula to calculate daily interest
+    total_APR = APR / (365 * 100)
+        
+    value = math.log(1 + amt_bal / mon_pay * (1 - (1 + total_APR) ** -30))
+    print(value)
+    #formula to calculate the total number of month required to pay the total balance
+    num_mon = - (1 / 30) * value / math.log(1 + total_APR)
+
+    print(num_mon)
+
+APR = int(input("Type the daily APR  for your credit card: "))
 amt_bal = int(input("Enter the balance amount of the credit card: "))
 mon_pay = int(input("How much monthly payment would you like to pay: "))
-value = math.log(1 + amt_bal / mon_pay * (1 - (1 + total_APR) ** -30))
-print(value)
 
-num_mon = - (1 / 30) * value / math.log(1 + total_APR)
-
-print(num_mon)
+calculateMonthsUntilPaidOff(APR, amt_bal, mon_pay)
