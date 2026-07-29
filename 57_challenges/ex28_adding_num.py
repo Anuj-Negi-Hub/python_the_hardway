@@ -15,3 +15,4 @@ for i in range(5):
     num = int(input("Enter the number: "))
     result += num
 print(result)
+

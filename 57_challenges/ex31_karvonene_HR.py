@@ -32,6 +32,7 @@ print("----------|--------")
 if exer_inten >= 55 and exer_inten <= 95:
     while exer_inten >= 55 and exer_inten <= 95:
         exact_inten = exer_inten / 100
+        #formula to calculate target heart rate
         heart_rate = (((220 - age) - rest_pulse) * exact_inten) + rest_pulse
         print(f"{exer_inten}%       |     {heart_rate:.0f} bpm")
         exer_inten += 5
