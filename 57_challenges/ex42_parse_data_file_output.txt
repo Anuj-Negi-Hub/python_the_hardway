@@ -1,0 +1,9 @@
+Last Name      First Name         Salary
+----------------------------------------
+Ling           Mai            $   55,900
+Johnson        Jim            $   56,500
+Jones          Aaron          $   46,000
+Jones          Chris          $   34,500
+Swift          Geoffrey       $   14,200
+Xiong          Fong           $   65,000
+Zarnecki       Sabrina        $   51,500
