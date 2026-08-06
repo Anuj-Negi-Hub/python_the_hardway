@@ -51,6 +51,7 @@ if js_folder.lower() == "y":
     os.mkdir(f"{site_name}/js")
     print(f"Created ./{site_name}/js")
 
+# create cs file folder
 if css_folder.lower() == "y":
     os.mkdir(f"{site_name}/css")
     print(f"Created ./{site_name}/css")
