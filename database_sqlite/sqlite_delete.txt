@@ -1,0 +1,35 @@
+'''
+import sqlite3
+
+# Connect to database
+conn = sqlite3.connect("users.db")
+cursor = conn.cursor()
+
+# ----------------------------------------------------
+# Option 1: Delete a SPECIFIC row using a WHERE clause
+# ----------------------------------------------------
+cursor.execute("DELETE FROM courses WHERE course_name = ?", ("Car",))
+print(f"Deleted {cursor.rowcount} row(s) where course_name = 'Car'")
+
+# ----------------------------------------------------
+# Option 2: Delete rows based on a condition (e.g., ID or credits)
+# ----------------------------------------------------
+cursor.execute("DELETE FROM courses WHERE course_id = ?", (1,))
+print(f"Deleted {cursor.rowcount} row(s) where course_id = 1")
+
+# ----------------------------------------------------
+# Option 3: Delete ALL rows from the 'courses' table (Keeps table structure)
+# Uncomment the line below to clear all rows from 'courses':
+# cursor.execute("DELETE FROM courses")
+
+# ----------------------------------------------------
+# Option 4: Completely DROP (remove) the table 'courses' from database
+# Uncomment the line below if you want to delete the table entirely:
+# cursor.execute("DROP TABLE IF EXISTS courses")
+
+# Commit changes and close connection
+conn.commit()
+conn.close()
+
+print("Delete operation completed successfully!")
+'''
