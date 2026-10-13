@@ -39,7 +39,7 @@ class ShopDatabase:
         
         # Enable Foreign Key constraints in SQLite
         self.cursor.execute("PRAGMA foreign_keys = ON;")
-        self._create_tables()
+        self._create_tables()   #check this as well
 
     def _create_tables(self):
         # Create Customers table
