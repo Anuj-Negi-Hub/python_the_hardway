@@ -58,7 +58,7 @@ class OrderItem:
 
     @property
     def subtotal(self):
-        return self.quantity * self.unit_price
+        return self.quantity * self.unit_price #gives the total price of all the items
 
     def __repr__(self):
         return (f"OrderItem(id={self.item_id}, order_id={self.order_id}, "
@@ -146,6 +146,8 @@ class StoreDatabase:
         return product
 
     # --- MULTI-OBJECT TRANSACTION: CREATING AN ORDER ---
+
+    #start from here
 
     def create_order(self, customer: Customer, cart_items: list[tuple[Product, int]]) -> Order:
         """
